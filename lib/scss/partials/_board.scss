@@ -1,0 +1,133 @@
+
+html, body, div, span, figure, p, h1, h2, h3, h4, h5, h6, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    color: black;
+}
+
+#board{
+    margin: 0 auto;
+}
+
+div.cell button {
+    border: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #00ff0033 !important;
+}
+form {
+    display: block;
+    text-align: center;
+}
+
+div.game {
+    display: inline-block !important;
+    position: relative !important;
+    margin: 1em auto !important;
+    width: 96vw !important;
+    height: 96vw !important;
+    max-width: 1000px !important;
+    max-height: 1000px !important;
+    border: 0 !important;
+    box-sizing: border-box !important;
+    padding: 0 !important;
+
+    background-image: url('../img/board.jpg');
+
+    background-size: 100% 100% !important;
+}
+
+div.game > div.board {
+    display: flex !important;
+    flex-direction: column !important;
+    margin: 2.2% 0 0 5.5% !important;
+    width: 90.5% !important;
+    height: 93.1% !important;
+}
+
+div.game div.row {
+    display: flex !important;
+    flex: 1 1 auto !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: 4% !important;
+    min-height: 4% !important;
+    white-space: nowrap !important;
+    box-sizing: border-box !important;
+}
+
+div.game div.cell {
+    flex: 1 0 4.16% !important;
+    vertical-align: top !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+
+    /* Remove Later */
+    /*border: 1px solid red;*/
+}
+
+div.cell button {
+    border: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #00ff0033 !important;
+}
+
+div.cell button.unmovable {
+    opacity: 0 !important;
+}
+
+div.cell button.movable {
+    opacity: 1 !important;
+}
+
+div.cell button img {
+    width: 86.56% !important;
+    height: 85.51% !important;
+}
+
+div.play {
+    position: absolute !important;
+    left: 43.2% !important;
+    top: 39.2% !important;
+    width: 18.2% !important;
+    height: 25.5% !important;
+
+    background: url('../img/statue_w.jpg') !important;
+    overflow-y: auto !important;
+
+    border: 5px solid #212a2c !important;
+}
+
+div.dice {
+    align-content: center !important;
+    margin-top: 1em !important;
+}
+
+p.die {
+    display: inline-block !important;
+    margin: 0.5em !important;
+}
+
+p.die img {
+    width: 125% !important;
+    height: 125% !important;
+}
+
+div.turn {
+    font-weight: bold !important;
+}
+
+div.cell button {
+    border: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #00ff0033 !important;
+}
+
